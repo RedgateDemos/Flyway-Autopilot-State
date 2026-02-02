@@ -11,3 +11,5 @@ ALTER TABLE [Logistics].[MaintenanceLog] ADD CONSTRAINT [PK__Maintena__5E5499A8A
 GO
 ALTER TABLE [Logistics].[MaintenanceLog] ADD CONSTRAINT [FK__Maintenan__Fligh__30F848ED] FOREIGN KEY ([FlightID]) REFERENCES [Logistics].[Flight] ([FlightID])
 GO
+ALTER TABLE [Logistics].[MaintenanceLog] NOCHECK CONSTRAINT [FK__Maintenan__Fligh__30F848ED]
+GO
