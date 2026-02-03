@@ -27,6 +27,7 @@ provisioner = "clean"
 [flyway]
 defaultSchema = "dbo"
 locations = [ "filesystem:migrations" ]
+callbackLocations = ["filesystem:Callbacks"]
 mixed = true
 outOfOrder = true
 schemaModelLocation = "schema-model"
